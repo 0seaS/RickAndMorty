@@ -1,3 +1,4 @@
+import './styles/FormLocation.css'
 import getRandomNumber from "../utils/getRandomNumber"
 
 
@@ -15,9 +16,9 @@ const FormLocation = ({setIdFormLocation}) => {
     }
 
   return (
-    <form onSubmit={handleSubmit}>
-        <input id='inputId' style={{boxShadow: '1px 1px 10px'}} type="text" />
-        <button style={{backgroundColor: 'green', color: 'white'}}>Search</button>
+    <form className="location__form" onSubmit={handleSubmit}>
+        <input className='location__input' id='inputId' type="text" />
+        <button className='location__button'>Search</button>
     </form>
   )
 }

@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;1,700&display=swap');
 
 :root {
-    --bg-card:#1a262c;
+    --bg-card: #072226;
     --color-green: rgb(17, 216, 17);
 }
 
@@ -17,6 +17,7 @@ html {
 
 body {
     margin: 0;
+    background-color: #05292e;
 }
 
 h1, h2, h3, p, ul, hr {

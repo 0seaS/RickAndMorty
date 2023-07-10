@@ -45,9 +45,12 @@ function App() {
           :hasError 
             ? (<h1>❌ hey!! you must provide an id from 1 to 126 😭 </h1>)
             : (<>
-                <LocationInfo 
-                  location={location}
-                />
+                <div className='location__container'>
+                  <LocationInfo 
+                    location={location}
+                  />
+                </div>
+                
                 <div className='resident__container'>
                 {
                   location.residents?.map(url => (
