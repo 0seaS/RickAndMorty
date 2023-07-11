@@ -6,6 +6,7 @@ import getRandomNumber from './utils/getRandomNumber'
 import LocationInfo from './components/LocationInfo'
 import ResidentCard from './components/ResidentCard'
 import FormLocation from './components/FormLocation'
+import Loader from './components/Loader'
 
 function App() {
  
@@ -44,7 +45,7 @@ function App() {
       />
       {
         isLoading
-          ?(<h2>Loading...</h2>)
+          ?(<Loader></Loader>)
           :hasError 
             ? (<h1>❌ hey!! you must provide an id from 1 to 126 😭 </h1>)
             : (<>
