@@ -5,5 +5,10 @@
 
 .location__input {
     border-radius: 0.5rem 0 0 0.5rem;
-    box-shadow: 1px 1px 10px;
+}
+
+.location__button {
+    border-radius: 0 0.5rem 0.5rem 0;
+    background-color: #71a821;
+    color: white;
 }

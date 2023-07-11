@@ -35,7 +35,10 @@ function App() {
 
   return (
     <>
-      <h1>Rick and Morty</h1>
+      <div className='banner'>
+        <img className='img__banner' src="/banner.jpg" alt="" />
+      </div>
+      
       <FormLocation 
         setIdFormLocation={setIdFormLocation}
       />
